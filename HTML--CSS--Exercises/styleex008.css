@@ -1,0 +1,72 @@
+    
+   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   
+/*Cuidado com fontes sem acento!*/
+
+   /* 
+        Ao trabalhar com fontes devemos ter em mente seus tamanhos nas diferentes telas, bem como
+        a correspondência entre as medidas aceitas pelo CSS.
+
+        - Medidas absolutas 
+            (Às vezes o navegador não consegue chegar exatamente ao 
+            tamanho das fontes por causa da tela dos aparelhos existentes. Então a apresenção do seu conteúdo
+            pode ser diferente em determinados dispositivos)   
+        cm, mm, in, px, pt, pc
+
+        - Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+
+        A recomendação da W3C é utilizar EM ou PX
+    */
+
+body {
+
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(51, 51, 112, 0.61);
+
+    /*
+        Para estudar o peso das fontes, é bom utilizar uma fonte diferente, pois as padrão nem sempre
+        possuem todos os pesos. Por isso foi importada uma fonte neste exercício.
+        lighter, normal, bold, bolder
+        Também é possível utilizar por números, pois é mais preciso'
+    */
+
+    /*
+        A propriedade "Shorthand" fonte condensa todas as configurações de fonte
+        A ordem é a seguinte:
+            - fonte-style, font-weight, font-size, font-family 
+        Portanto, ao invés de utilizar as próximas 4 linhas:
+            font-family:
+            font-weight:
+            font-size:
+            font-style:
+        É possível utilizar só 1 linha    
+    */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px rgba(7, 6, 6, 0.26);
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+article{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+}

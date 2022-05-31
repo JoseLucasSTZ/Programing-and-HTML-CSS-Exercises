@@ -1,0 +1,71 @@
+/*
+    # = ID
+    . = class
+    : = pseudo-class
+    ::pseudo-element
+    */
+
+body{
+    font-family: sans-serif;
+    margin:auto;
+    background-color: #8e9097;
+    color:white
+}
+
+.pai {
+    border: solid 3px green;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.filho {
+    border: solid 3px black;
+    width: 100px;
+    height: 100px;
+    margin:auto;
+}
+
+p, h2,h1 {
+    text-align: center
+}
+
+.teste:hover{
+    color: red;
+}
+
+div>p{
+    display:none;
+}
+
+div:hover>p{
+    display:block ;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a:active{
+    color: yellow;
+}
+
+a::after {
+    content: '[link]';
+    text-decoration:none;
+    font-weight:normal;
+    color:rgb(87, 80, 80);
+}

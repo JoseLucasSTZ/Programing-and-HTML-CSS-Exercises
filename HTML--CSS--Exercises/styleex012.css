@@ -1,0 +1,93 @@
+body {
+    background-color:#3EAD8C;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+aside{
+    background: white;
+    padding: 1px;
+    margin: 10px;
+}
+
+aside>div{
+    background-color: #697a7562;
+}
+
+section {
+    background-color: white;
+    margin:10px;
+    padding: 1px;
+}
+
+section>article{
+    background-color:#697a7583;
+}
+
+nav {
+    background-color:#697A75;
+    padding: 2px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:#697A75;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+
+/*.cabecalho {
+    background-color: white;
+}
+
+.secao{
+    background-color: white;
+}
+
+.barraLateral{
+    background-color: white;
+}
+
+.rodape{
+    background-color: white;
+}
+
+body{
+    background-color: #6A50AD;
+}
+*/

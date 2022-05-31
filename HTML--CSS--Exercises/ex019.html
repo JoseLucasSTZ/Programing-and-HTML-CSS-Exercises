@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            position:relative;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .num{
+
+        }
+
+        caption{
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        thead,tfoot{
+            background-color: black;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR,TD,TH    
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">UNIDADE FEDERATIVA
+                <th scope="col">POPULAÇÃO (2021)
+                <th scope="col">PAÍS COMPARÁVEL (hab)
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> São Paulo</td>
+                <td class="num">41 262 199</td>
+                <td> Espanha (46 439 864)</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td class="num">21 411 923</td>
+                <td>Sri Lanka (20 675 000)</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+                <td>Síria (17,500,658)</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 985 284</td>
+                <td> Chade (14 037 000)</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 597 484</td>
+                <td>Bolívia (11 410 651)</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 466 630	</td>
+                <td>Bélgica (11 250 659)</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 674 793</td>
+                <td>Bielorrússia (9 485 300)</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 240 580</td>
+                <td>Emirados Árabes Unidos (9 157 000)</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 777 124</td>
+                <td>Áustria (8 602 112)</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 338 473</td>
+                <td>Sérvia (7 114 393)</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 206 589</td>
+                <td>Paraguai (7 003 406)</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 153 262</td>
+                <td>Paraguai (7 003 406)</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 269 995</td>
+                <td>Líbano (4 168 000)</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 108 508</td>
+                <td>Líbano (4 168 000)</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4 059 905</td>
+                <td>Líbano (4 168 000)</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso</td>
+                <td class="num">3 567 234</td>
+                <td>Uruguai (3 415 866)</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 560 903</td>
+                <td>Uruguai (3 415 866)</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 365 351</td>
+                <td>Uruguai (3 415 866)</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3 289 290</td>
+                <td>Kuwait (3 268 431)</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 839 188</td>
+                <td>Jamaica (2 717 991)</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2 338 474</td>
+                <td>Namíbia (2 280 700)</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1 815 278</td>
+                <td>Gabão (1 725 000)</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1 607 363</td>
+                <td> Bahrein (1 359 800)</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">906 876</td>
+                <td> Fiji (859 178)</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">877 613</td>
+                <td>Fiji (859 178)</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">652 713	</td>
+                <td>Luxemburgo (562 958)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes
+                <td> ----- </td>
+                <td class="num" style="font-weight:bold;">213.300,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

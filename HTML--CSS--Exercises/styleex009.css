@@ -1,0 +1,52 @@
+/*
+tudo que em HTML é id     = em CSS é #
+tudo que em HTML é class  = EM CSS é .
+*/
+
+article {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.61);
+    margin-bottom: 30px;
+
+}
+
+body{
+    background-image: linear-gradient(to right,#5F518C,#8B73D9 );
+}
+
+h1{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 750px;
+    text-align: center;
+    color: #5F518C;
+    text-decoration: underline;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+article#artigoID{
+    background: rgb(248, 248, 79);
+}
+
+.DestaqueVerde{
+    background-color: #9ED9A2;
+}
+
+.DestaqueVermelho{
+    background-color: rgb(252, 102, 102);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(128, 128, 128, 0.301);
+    }
+
+    h1{
+        margin: auto;
+    }
+
+    h2{
+        font-weight: normal;
+        color: blue;
+    }
+
+    h3{
+        font-size: medium;
+    }
+</style>
+<body>
+   <h1>Este exercício envolve a manipulação de vídeo e áudio em HTML</h1> 
+   <article>
+       <h2> Videos</h2>
+       <h3> Este video está hospedado localmente</h3>
+       <video width="500" height="315" controls>
+        <source src="midia/Vídeo Casa Neve Swisshumanity 2Pexels.m4v">
+        <p> Caso o vídeo não tenha sido reproduzido, possivelmente seu navegador não possuí \<br>
+            suporte para o formato de arquivo utilizado. <a href="midia/Vídeo Casa Neve Swisshumanity 2Pexels.m4v"> Clique aqui para baixá-lo</a> </p>
+       </video>
+       <p>
+           Vídeo de SwissHumanity no Pexels, disponível em:
+           https://www.pexels.com/pt-br/video/ceu-azul-ceu-de-brigadeiro-construcao-predio-3818213/
+       </p>
+
+       <h3>Vídeo hospedado externamente</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YuHhmwaEJmI"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p> Vídeo <strong>disponibilizado por José Carlos Silveira Junior</strong>. Acesse seu canal em: https://www.youtube.com/channel/UCXzB_fj5JNQ6i6WRKoDdQlQ</p>
+   </article>
+   <article>
+       <h2>Áudios</h2>     
+       <audio controls preload="metadata">
+           <source src="midia/Dan Brasco - For the Poor.mp3">
+           <p> Caso o áudio não tenha sido reproduzido, possivelmente seu navegador não possuí \<br>
+               suporte para o arquivo de áudio. <a href="midia/Dan Brasco - For the Poor.mp3"> Clique aqui para baixá-lo</a> </p>
+       </audio> 
+        <p> Siga o <strong>Autor</strong>: https://freemusicarchive.org/music/Dan_Brasco/Two-Tier_Society/01_For_the_Poor</p>
+<!-- Para ter compatibilidade com todos os navegadores, é bom utilizar a tag source. 
+Isso porque certos navegadores não suportam certos formatos de áudio. -->
+   </article>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(128, 128, 128, 0.301);
+    }
+
+    h1{
+        margin: auto;
+    }
+
+    h2{
+        font-weight: normal;
+        color: blue;
+    }
+    ol,ul{
+        font-size: small;
+    }
+
+</style>
+<body>
+   <h1> Neste exercício serão feitas demonstrações com listas, imagens dinâmicas e links internos</h1>
+    <h2> Neste artigo estão estão exemplos de listas </h2>      
+    <ol type="I" start="2">
+        <li> Esta é uma lista ordenada</li>
+        <li> O primeiro item começa com "2" em razão do atributo "start"</li><!-- o </li> tornou-se facultativo a partir do HTML5-->
+        <li> Este é o item 02</li>
+    </ol>
+    <p style="color: red;"> Aqui eu inseri um parágrafo para separar cada demonstração </p>
+    <ul type="circle">
+        <li>Esta é uma lista não ordenada</li>
+        <li> Segundo item da lista não ordenada</li>
+        <ol>
+            <li> Nela eu criei uma sublista</li>
+            <li> Ordenada </li>
+        </ol>
+    </ul>
+    <article>
+        <h2> Neste artigo serão inseridos links para download<h2>
+        <ol>
+            <li><a href="pdf/PDF Paradigmas de Programacao.pdf" > Baixe um PDF sobre paradigmas de programação</a></li>
+            <li><a href="pdf/PDF Paradigmas de Programacao.rar"> Baixe a versão compactada</a></li>
+            <li><a href="pdf/Paradigmas de Programacao.docx"> Também disponibilizo a versão word</a></li>
+        </ol>
+    </article>
+    <h2 style="color: rgb(8, 37, 46);"> A imagem a seguir é dinâmica. Aumente e diminua seu navegador para conferir!</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/imagemM.png" type="image/png">
+        <img src="img/imagemG.png" alt="Imagem grande"> 
+    </picture>
+    <p><a href="ex003.html" rel="next">Clique aqui para ser direcionado ao exercício 03</a></p>
+</body>
+</html>
