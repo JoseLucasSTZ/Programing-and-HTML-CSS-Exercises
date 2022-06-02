@@ -1,4 +1,4 @@
-public abstract class  Carro {
+public class  Carro {
     
 
     //ATRIBUTOS
@@ -8,6 +8,7 @@ public abstract class  Carro {
         private boolean airbag = true;
         private int velocidade = 0;
         private int aceleracao = 0;
+        private String nome;
 
     //CONSTRUTORES
 
@@ -82,18 +83,28 @@ public abstract class  Carro {
             this.aceleracao = aceleracao;
         }
 
+
+        public String getNome() {
+            return this.nome;
+        }
+
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+
     //toString
 
         @Override
         public String toString() {
             if (airbag = true){
                 return
-                    " Portas: " + getPortas() + "" +
+                    "  Portas: " + getPortas() + "" +
                     ", Marca: " + getMarca() + "" +
                     ", Motor: " + getMotor() + "" +
                     ", Airbag: " + "Possui Airbag"+ "" +
                     ", Velocidade: " + getVelocidade() + "" +
-                    ", Aceleracao: " + getAceleracao() + "";
+                    ", Aceleracao: " + getAceleracao() + "" +
+                    ", Nome: " + getNome();
             } else{
                 return
                     " portas: " + getPortas() + "'" +
@@ -101,9 +112,8 @@ public abstract class  Carro {
                     ", motor: " + getMotor() + "'" +
                     ", airbag: " + "Não possui Airbag"+ "'" +
                     ", velocidade: " + getVelocidade() + "'" +
-                    ", aceleracao: " + getAceleracao() + "'";
+                    ", aceleracao: " + getAceleracao() + "'" +
+                    ", Nome: " + getNome();
             }
-        }
-
-        
+        }  
 }
