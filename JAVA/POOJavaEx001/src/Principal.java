@@ -8,11 +8,14 @@ public class Principal {
             Carro palio = new Carro();
             palio.setNome("Palio");
             Avenida BaraoRioBranco = new Avenida(10, 60);
-        
+           
         //AGREGAÇÃO AOS OBJETOS
 
             BaraoRioBranco.setCarroIndo(palio);
             BaraoRioBranco.setCarroVindo(mustang);
+            VerificaAcidente Lombada1 = new VerificaAcidente(BaraoRioBranco);
+            Policial Roberto = new Policial("Roberto");
+            Roberto.aplicaMulta(Lombada1.getSinistro, velocidadeCarro, velMaxima);
 
         //APRESENTAÇÃO DOS DADOS
 
