@@ -25,6 +25,11 @@ public class Policial {
                 System.out.println("O CONDUTOR FOI MULTADO");
                 System.out.println("------");
             }
+            else{
+                System.out.println("------");
+                System.out.println("DIRIJA COM CUIDADO");
+                System.out.println("------");
+            }
         }
 
     //GETTERS AND SETTERS
