@@ -98,22 +98,22 @@ public class  Carro {
         public String toString() {
             if (airbag = true){
                 return
-                    "  Portas: " + getPortas() + "" +
-                    ", Marca: " + getMarca() + "" +
-                    ", Motor: " + getMotor() + "" +
-                    ", Airbag: " + "Possui Airbag"+ "" +
-                    ", Velocidade: " + getVelocidade() + "" +
-                    ", Aceleracao: " + getAceleracao() + "" +
-                    ", Nome: " + getNome();
+                    "  Nome: " +getNome()+" "+
+                    ", Portas: " + getPortas() + " " +
+                    ", Marca: " + getMarca() + " " +
+                    ", Motor: " + getMotor() + " " +
+                    ", Airbag: " + "Possui Airbag"+ " " +
+                    ", Velocidade: " + getVelocidade() + " " +
+                    ", Aceleracao: " + getAceleracao() + " " ;
             } else{
                 return
-                    " portas: " + getPortas() + "'" +
-                    ", marca: " + getMarca() + "'" +
-                    ", motor: " + getMotor() + "'" +
-                    ", airbag: " + "Não possui Airbag"+ "'" +
-                    ", velocidade: " + getVelocidade() + "'" +
-                    ", aceleracao: " + getAceleracao() + "'" +
-                    ", Nome: " + getNome();
+                    "  Nome: " +getNome()+" "+
+                    " portas: " + getPortas() + " " +
+                    ", marca: " + getMarca() + " " +
+                    ", motor: " + getMotor() + " " +
+                    ", airbag: " + "Não possui Airbag"+ " " +
+                    ", velocidade: " + getVelocidade() + " " +
+                    ", aceleracao: " + getAceleracao() + " ";
             }
         }  
 }
