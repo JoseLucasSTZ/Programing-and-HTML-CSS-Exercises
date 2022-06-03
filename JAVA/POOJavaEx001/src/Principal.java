@@ -5,17 +5,21 @@ public class Principal {
         
             Carro mustang = new Carro();
             mustang.setNome("Mustang");
+            mustang.setVelocidade(120);
             Carro palio = new Carro();
             palio.setNome("Palio");
+            palio.setVelocidade(50);
             Avenida BaraoRioBranco = new Avenida(10, 60);
-           
-        //AGREGAÇÃO AOS OBJETOS
+            VerificaAcidente Lombada1 = new VerificaAcidente(BaraoRioBranco);
 
+        //AGREGAÇÃO AOS OBJETOS
+            Lombada1.verificaAcidente(palio.getNome(), palio.getVelocidade());
+            Lombada1.verificaAcidente(mustang.getNome(),mustang.getVelocidade());
             BaraoRioBranco.setCarroIndo(palio);
             BaraoRioBranco.setCarroVindo(mustang);
-            VerificaAcidente Lombada1 = new VerificaAcidente(BaraoRioBranco);
             Policial Roberto = new Policial("Roberto");
-            Roberto.aplicaMulta(Lombada1.getSinistro, velocidadeCarro, velMaxima);
+            Roberto.aplicaMulta(Lombada1.getSinistro(),palio.getNome(), palio.getVelocidade(), BaraoRioBranco.getVelMaxima());
+            Roberto.aplicaMulta(Lombada1.getSinistro(),mustang.getNome(), mustang.getVelocidade(), BaraoRioBranco.getVelMaxima());
 
         //APRESENTAÇÃO DOS DADOS
 

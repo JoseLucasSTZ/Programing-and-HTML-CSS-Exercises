@@ -15,6 +15,10 @@ public class  Carro {
         public Carro() {
         }
 
+        public Carro (String nome, int velocidade){
+            
+        }
+
         public Carro(int portas, String marca, String motor, boolean airbag, int velocidade, int aceleracao) {
             this.portas = portas;
             this.marca = marca;

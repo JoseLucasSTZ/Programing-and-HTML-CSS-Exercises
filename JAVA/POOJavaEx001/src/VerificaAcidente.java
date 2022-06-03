@@ -11,11 +11,20 @@ public class VerificaAcidente {
 
     //MÉTODOS ESPECIAIS
 
-        public void verificaAcidente(int velocidade){
+        public void verificaAcidente(String nome, int velocidade){
             if (velocidade >=100){
                 this.sinistro=true;
-                System.out.println("CRASH!");
-            } 
+                System.out.println(" ");
+                System.out.println("------------------------------------");
+                System.out.println(nome+ ": BATEU NO POSTE!");
+                System.out.println("------------------------------------");
+                System.out.println(" ");
+            } else {
+                System.out.println("------------------------------------");
+                System.out.println(nome +": A LOMBADA ELETRÔNICA MOSTRA: "+ velocidade);
+                System.out.println("------------------------------------");
+                System.out.println(" ");
+            }
         }
 
     //GETTERS AND SETTERS

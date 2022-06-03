@@ -19,16 +19,20 @@ public class Policial {
 
     //MÉTODOS ESPECIAIS
 
-        public void aplicaMulta(boolean sinistro, int velocidadeCarro, int velMaxima){
+        public void aplicaMulta(boolean sinistro, String nome, int velocidadeCarro, int velMaxima){
             if (velocidadeCarro >= velMaxima || sinistro == true){
-                System.out.println("------");
-                System.out.println("O CONDUTOR FOI MULTADO");
-                System.out.println("------");
+                System.out.println(" ");
+                System.out.println("------------------------------------");
+                System.out.println(nome + ", O CONDUTOR FOI MULTADO");
+                System.out.println("------------------------------------");
+                System.out.println(" ");
             }
             else{
-                System.out.println("------");
-                System.out.println("DIRIJA COM CUIDADO");
-                System.out.println("------");
+                System.out.println(" ");
+                System.out.println("------------------------------------");
+                System.out.println(nome + ", DIRIJA COM CUIDADO");
+                System.out.println("------------------------------------");
+                System.out.println(" ");
             }
         }
 
