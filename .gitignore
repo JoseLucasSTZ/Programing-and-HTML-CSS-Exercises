@@ -1,0 +1,5 @@
+# * Qualquer coisa. Ex: *.log - ignora todos os arquivos com essa extensão
+# ? Um caracter. 
+# Intervalos [0-9] ou [a-z]
+# ignorar só o que está dentro do diretório: nomeDoDiretório/*
+Node/Exercicios/node_modules/

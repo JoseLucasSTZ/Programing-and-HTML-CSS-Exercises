@@ -1,0 +1,14 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Exercícios feitos para aprender a trabalhar com Node.js",
+  "main": "Principal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2" 
+  }
+}
