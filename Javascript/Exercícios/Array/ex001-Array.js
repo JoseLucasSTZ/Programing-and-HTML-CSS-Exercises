@@ -1,4 +1,4 @@
-console.log(typeof Array, typeof new Array, typeof [])
+/*console.log(typeof Array, typeof new Array, typeof [])
 
 let aprovados = new Array ('Bia', 'Carlos', 'Ana') //Forma não recomendada porque não é literal
 
@@ -23,8 +23,9 @@ console.log(aprovados)
 aprovados.sort() //organizou o array
 console.log(aprovados)
 //Agora vamos reorganizar o array para lidar com o método "slice"
- 
-console.log(aprovados = ['primeiro elemento', 'segundo elemnto', 'terceiro elemento'])
-//slice serve para remover, adicionar ou remover e adicionar elementos ao mesmo tempo
+ */
+aprovados = ['primeiro elemento', 'segundo elemento', 'terceiro elemento']
+//splice serve para remover, adicionar ou remover e adicionar elementos ao mesmo tempo
 
-aprovados.slice(1,1)
+aprovados.splice(1,2,'joão','quarto elemento')
+console.log(aprovados)
