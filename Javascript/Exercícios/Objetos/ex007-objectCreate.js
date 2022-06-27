@@ -1,4 +1,5 @@
-//A herança em javascript é baseada em protótipos
+//A herança em javascript é baseada em protótipos. Assim, quando eu crio uma classe "neta" e passo um atributo que não esteja definido nela, ele buscará no objeto pai, se não houve na classe pai, ele buscará na classe avô e assim por diante. Se não achar o atributo em nenhum lugar da hierarquia de protótipos, ele dirá que é "undefined".
+
 const pai = {nome: 'Pedro', corCabelo: 'preto'}
 
 const filha1 = Object.create(pai) // Aqui cria um objeto novo, com o objeto pai como protótipo

@@ -30,6 +30,6 @@ const salario = new Lancamento ('Salario', 45000)
 const contaDeLuz = new Lancamento ('Luz', -220)
 
 const contas = new CicloFinanceiro(6, 2018)
-contas.addLancamentos(salario,contaDeLuz)
+contas.addLancamentos(salario, contaDeLuz)
 
 console.log(contas.sumario())
