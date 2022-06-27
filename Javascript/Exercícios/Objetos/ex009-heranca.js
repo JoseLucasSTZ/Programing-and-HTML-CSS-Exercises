@@ -22,5 +22,5 @@ console.log(Object.keys(filha2))
 for (let key in filha2) {
     filha2.hasOwnProperty(key) ?
     console.log(key) : console.log(`Por herança ${key}`)
-}
+} // aqui é para verificar quais atributos vieram da classe pai
 
