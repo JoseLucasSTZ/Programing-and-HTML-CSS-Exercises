@@ -10,7 +10,31 @@
     <div>Segundo</div>
     <div class="terceiro ultimo"><span wb-attrib>.terceiro .ultimo</span></div>
     <script>              
-        // ...
+        document.querySelector('#primeiro').classList.add('destaque')
+
+        const selecionar = seletor => 
+        document.querySelectorAll(seletor).forEach(e => e.classList.add('destaque'))
+        
+        const deselecionar = seletor => 
+        document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque'))
+        
+        // é importante verificar o que tem suporte quando for trabalhar, porque nem todos
+        // os browsers implementaram todos os recursos das versões mais recentes do ES.
+
+        deselecionar('div')
+        selecionar('div')
+
+        deselecionar('*')
+        selecionar('.terceiro.ultimo')
+
+        deselecionar('*')
+        selecionar('*:not(#primeiro)') // usa a pseudoclasse "not" para dizer que não quer o elemento
+
+        deselecionar('*')
+        selecionar(':nth-child(1)')// nth-child é uma pseudoclasse
+
+        deselecionar('*')
+        selecionar('[wb-attrib]')
     </script>
 </body>
 </html>
