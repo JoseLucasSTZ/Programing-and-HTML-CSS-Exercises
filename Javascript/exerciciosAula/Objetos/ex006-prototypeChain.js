@@ -1,6 +1,6 @@
 //Cadeia de protótipos
 
-Object.prototype.attrNAOFACAISSO = 'Z'
+Object.prototype.attrNAOFACAISSO = 'Z' //Não faça porque é um atributo global, e normalmente isso não é bom. É necessário experiência para definir a vantagem
 
 const avo = { attr1: 'A'} // O avô terá como prototype o object.prototype
 const pai = {__proto__: avo, attr2: 'B'}
