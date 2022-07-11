@@ -3,3 +3,10 @@ Obs.: O primeiro jogo não conta como novo recorde do melhor.
 Exemplo: 
 String: “10 20 20 8 25 3 0 30 1”
 Retorno: [3, 7] (Significa que ele bateu três vezes seu recorde de melhor pontuação e a pior pontuação aconteceu no sétimo jogo.)*/
+
+jogos = [10, 23, 2, 45, 12, 1]
+
+function melhorJogo(novoJogo) {
+    
+}
+
