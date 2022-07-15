@@ -4,3 +4,4 @@
 # ignorar só o que está dentro do diretório: nomeDoDiretório/*
 Node/Exercicios/node_modules/
 javascript/ajax/node_modules/
+javascript/gulp/node_modules/
