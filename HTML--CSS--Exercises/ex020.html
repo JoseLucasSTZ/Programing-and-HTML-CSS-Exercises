@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background: rgb(7, 68, 7);
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        .div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin:auto;
+            background: lightgrey;
+            width: 500px;
+            height: 400px; 
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+        }
+
+        button {
+            font-weight: bold;
+            padding: 10px;
+            background: rgb(0, 0, 0);
+            color: white;
+            margin-bottom: 5px;
+        }
+
+    </style>
+    <title>Exercício Javascript</title>
+</head>
+<body>
+    <h1>EXERCÍCIO DE JAVASCRIPT </h1>
+    <div class="div" id="div1">
+        <button onclick="pegarDados()"> PEGAR DADOS</button>
+        
+        <button onclick="colocarDIV2()">ACRESCENTAR NA DIV-2</button>
+    </div> 
+    </br>
+    <div class="div" id="div2"></div>
+</body>
+<script>
+    const div1 = document.getElementById('div1')
+    const div2 = document.getElementById('div2')
+    arquivoJSON = []
+
+
+    const pegarDados = ()=> {
+        return (fetch('https://jsonplaceholder.typicode.com/posts')
+        .then(resp => resp.json())
+        .then(resp => console.log(resp)))
+        .then(resp => arquivoJSON.push(resp) )
+    }
+    
+    const colocarDIV2 = () => {
+        let item = document.createElement('li')
+        item += `<li>JSON.stringify(arquivoJSON)</li>`
+        div2.appendChild(item)
+        console.log(item)
+    }
+</script>
+</html>
