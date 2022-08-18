@@ -60,10 +60,13 @@
     }
     
     const colocarDIV2 = () => {
-        let item = document.createElement('li')
-        item += `<li>JSON.stringify(arquivoJSON)</li>`
-        div2.appendChild(item)
-        console.log(item)
-    }
+        
+        for(let i = 0; i<= arquivoJSON.length; i++) {       
+            let item = document.createElement('li')
+           item += `<li> ${i} </li>`
+            // item.innerHTML = `<li> ${JSON.parse(arquivoJSON[i])} </li>`
+            div2.appendChild(item)
+            console.log(item)
+    }}
 </script>
 </html>
