@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main,body {
+            background-color: black;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            margin:0px;
+            padding: 0px; 
+        }
+
+        section{
+            position: absolute;
+            background-color: white;
+            width: 400px;
+            height:300px;         
+            border-radius: 10px;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-bottom:15px;
+        }
+
+        section > form {
+            position:absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Exercício 21</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="" method="get" autocomplete="off">
+                    <h1> Exercício com formulários </h1>
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input placeholder="Nome Completo" type="text" name="nome" id="inome" required>
+                    </p>
+                    <p>
+                        <label for="isenha">Senha: </label>
+                        <input type="password" name="senha"  id="isenha" required>
+                    </p>
+                    <p>
+                        <label for="idata">Dia de hoje: </label>
+                        <input type="date" name="data" id="idata">
+                    </p>
+                    <p>
+                        <label for="ihora">Hora do cadastro: </label>
+                        <input type="time" name="hora" id="ihora">
+                    </p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset"  value="Limpar">
+            </form>
+        </section>     
+    </main> 
+</body>
+</html>
