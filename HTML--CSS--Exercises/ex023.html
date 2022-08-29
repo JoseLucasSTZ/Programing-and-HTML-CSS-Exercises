@@ -11,6 +11,12 @@
             display:block;
             margin: auto;
         }
+        .small {
+            width: 300px;
+            height: 300px;
+            display:block;
+            margin: auto;
+        }
     </style>
     <title>Exercício 023 - Iframes</title>
 </head>
@@ -26,7 +32,10 @@
         </p>
     </p>
     <iframe name="frame"></iframe>
-
+    <p>
+        Há outro atributo no iframe, chamado de 'srcdoc', que serve para gerar conteúdo estático, conforme o exemplo a seguir
+        <iframe class="small" srcdoc="<h1>O que aparece foi escrito diretamente no iframe, por via de elementos html</h1>"></iframe>
+    </p>
     
 </body>
 </html>

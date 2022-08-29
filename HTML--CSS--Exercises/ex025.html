@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25 - Segurança no iFrame</title>
+</head>
+<body>
+    <h1>Segurança no iFrame CUIDADO PARA QUEM VOCÊ VAI ABRIR AS PORTAS DO SEU SITE</h1>   
+    <p>
+        Há utilização do iFrame traz algumas ameaças de segurança porque permite que um script de
+        outro site seja executado no seu. Esse script pode conter vírus, ou ter seus formulários 
+        utilizados para phishing e outros golpes
+    </p>
+    <iFrame src="ex017.html"></iFrame>
+    <p>
+        Como forma de melhorar a segurança, é possivel utilizar os atributos "referrerpolicy" (no-referrer 
+        não permite capturar dados de ninguém) e "sandbox" para restringir os riscos. (exemplo abaixo) 
+    </p>
+    <iframe src="ex017.html" referrerpolicy="no-referrer" sandbox="sandbox"></iframe>
+</body>
+</html>
