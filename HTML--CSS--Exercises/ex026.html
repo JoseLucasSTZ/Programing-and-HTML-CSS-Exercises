@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 26 - BigTechs usam iFrames</title>
+    <title>Exercício 26 - Usando fieldset e legend</title>
 </head>
 <body>
-    <h1>BigTechs usam iFrames</h1>
-    <p>Várias APIs são feitas por meio de iFrames, como no caso do googledocs, do waze,
-        google map, vimeo e outros. Seguem exemplos
-    </p>
-
-    <h2>Google Maps</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113039.80379503155!2d-48.6705213!3d-27.702033949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527320ed5be2ac1%3A0x3d87163b9d90aa06!2zUGFsaG_Dp2EsIFND!5e0!3m2!1spt-BR!2sbr!4v1661734775443!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <h2>Waze</h2>
-    <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-27.641122&lon=-48.678953&ct=livemap" width="600" height="450" allowfullscreen></iframe>
-    <h2>YouTube</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GWULnkTnapM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- É legal usar fieldset para agrupar dados similares -->
+    <h1>Usando fieldset e legend em formulários</h1>
+    <form>
+       <fieldset>
+         <legend>Dados para entrar</legend>   
+         <label for="nome"> Nome: </label>
+         <input type="text" name="nome" id="inome" required autocomplete="off"> <br/>
+         <label for="senha"> Senha: </label>
+         <input type="password" id="isenha" required> <br/>
+         <input type="submit" value="Enviar">
+       </fieldset>
+    </form>
 </body>
 </html>

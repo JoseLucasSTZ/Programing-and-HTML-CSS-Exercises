@@ -4,62 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        main,body {
-            background-color: black;
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-            margin:0px;
-            padding: 0px; 
-        }
-
-        section{
-            position: absolute;
-            background-color: white;
-            width: 400px;
-            height:300px;         
-            border-radius: 10px;
-            top:50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding-bottom:15px;
-        }
-
-        section > form {
-            position:absolute;
-            top:50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-    <title>Exercício 21</title>
+    <title>Exercício 22 - iFrames</title>
 </head>
 <body>
-    <main>
-        <section>
-            <form action="" method="get" autocomplete="off">
-                    <h1> Exercício com formulários </h1>
-                    <p>
-                        <label for="inome">Nome: </label>
-                        <input placeholder="Nome Completo" type="text" name="nome" id="inome" required>
-                    </p>
-                    <p>
-                        <label for="isenha">Senha: </label>
-                        <input type="password" name="senha"  id="isenha" required>
-                    </p>
-                    <p>
-                        <label for="idata">Dia de hoje: </label>
-                        <input type="date" name="data" id="idata">
-                    </p>
-                    <p>
-                        <label for="ihora">Hora do cadastro: </label>
-                        <input type="time" name="hora" id="ihora">
-                    </p>
-                    <input type="submit" value="Enviar">
-                    <input type="reset"  value="Limpar">
-            </form>
-        </section>     
-    </main> 
+    <!-- O iFrame ainda é muito útil. O "i" vem de "inline". Portanto a ideia é de uma
+    "quadro" em uma linha-->
+    
+    <!--O iFrame tem o tamanho padrão de 300x150-->
+    
+    <!--Softwares de usabilidade, ex os feito para cegos, tem dificuldades para acessar o conteúdo do iFrame -->
+    
+    <!--Os conteúdos do iFrame não são devidamente indexados pelo Google-->
+    
+    <!--O iframe pode ser inseguro no seguinte caso: você cita um site que foi invadido, aí seus usuários
+    acessarão a página invadida por meio do seu iFrame-->
+    <h1> Teste do uso de iFrame </h1>
+    <p>Iframes permitem que você insira quadros de outras páginas no seu site. Contudo, nem todos 
+        os sites permites que você os utilize num iFrame. É o caso do linkedin, conforme se observa:
+        <br/>
+        <iframe src="https://www.linkedin.com/in/jlucassc/" frameborder="0">
+            O linkedin não é compatível com o uso de iframe
+        </iframe>
+    </p>
+   
+    <p>
+        Já o site do Curso em Vídeo permite: <br/>
+        <iframe src="https://www.cursoemvideo.com" width ="500" height="500" frameborder="0"> </iframe>
+    </p>
+    <p> Também é possível carregar páginas próprias no iFrame<br/>
+        <iframe src="./ex009.html" width="700" height="700">
+        </iframe>
+    </p>
+
 </body>
 </html>

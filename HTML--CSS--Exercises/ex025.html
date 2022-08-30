@@ -4,20 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 25 - Segurança no iFrame</title>
+    <style>
+        main,body {
+            background-color: black;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            margin:0px;
+            padding: 0px; 
+        }
+
+        section{
+            position: absolute;
+            background-color: white;
+            width: 400px;
+            height:300px;         
+            border-radius: 10px;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-bottom:15px;
+        }
+
+        section > form {
+            position:absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Exercício 21</title>
 </head>
 <body>
-    <h1>Segurança no iFrame CUIDADO PARA QUEM VOCÊ VAI ABRIR AS PORTAS DO SEU SITE</h1>   
-    <p>
-        Há utilização do iFrame traz algumas ameaças de segurança porque permite que um script de
-        outro site seja executado no seu. Esse script pode conter vírus, ou ter seus formulários 
-        utilizados para phishing e outros golpes
-    </p>
-    <iFrame src="ex017.html"></iFrame>
-    <p>
-        Como forma de melhorar a segurança, é possivel utilizar os atributos "referrerpolicy" (no-referrer 
-        não permite capturar dados de ninguém) e "sandbox" para restringir os riscos. (exemplo abaixo) 
-    </p>
-    <iframe src="ex017.html" referrerpolicy="no-referrer" sandbox="sandbox"></iframe>
+    <main>
+        <section>
+            <!-- É importante ligar as labels aos inputs porque os mecanismos de busca podem não
+                 identificar a correlação automaticamente. Além disso, cria-se uma área maior de sensibilidade
+                 porque o usuário também pode clicar sobre o nome -->
+            <!-- Lembre-se que os dados não ficam ocultos pela utilização método post, eles apenas não
+                ficam acessíveis via url. O post serve para enviar arquivos acima de 3000 bytes e outros
+                tipos de arquivos, como fotos.-->
+            <!-- Quando você envia dados por GET você só pode enviar até 3000 bytes, aproximadamente
+                3000 letras-->
+            <!-- Antigamente a diferença de velocidade entre GET e POST era relevante, contudo hoje
+                 isso se tornou irrelevante-->
+            <form action="" method="get" autocomplete="off">
+                    <h1> Exercício com formulários </h1>
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input placeholder="Nome Completo" type="text" name="nome" id="inome" required>
+                    </p>
+                    <p>
+                        <label for="isenha">Senha: </label>
+                        <input type="password" name="senha"  id="isenha" size="10" required>
+                    </p>
+                    <p>
+                        <label for="idata">Dia de hoje: </label>
+                        <input type="date" name="data" id="idata">
+                    </p>
+                    <p>
+                        <label for="ihora">Hora do cadastro: </label>
+                        <input type="time" name="hora" id="ihora">
+                    </p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset"  value="Limpar">
+                <!--Alguns navegadores podem não ser compatíveis com os tipos de input-->
+                <!-- Estudar mais sobre RegEx, ou expressões regulares -->
+            </form>
+        </section>     
+    </main> 
 </body>
 </html>

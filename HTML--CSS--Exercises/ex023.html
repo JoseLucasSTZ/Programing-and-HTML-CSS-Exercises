@@ -4,38 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        iframe{
-            width: 700px;
-            height: 800px;
-            display:block;
-            margin: auto;
-        }
-        .small {
-            width: 300px;
-            height: 300px;
-            display:block;
-            margin: auto;
-        }
-    </style>
-    <title>Exercício 023 - Iframes</title>
+    <title>Exercício 25 - Segurança no iFrame</title>
 </head>
 <body>
+    <h1>Segurança no iFrame CUIDADO PARA QUEM VOCÊ VAI ABRIR AS PORTAS DO SEU SITE</h1>   
     <p>
-        É possível carregar o iFrame conforme se clica nos seguintes links:
-        <p>
-            <ul>
-                <li><a href="ex005.html" target="frame">Clique aqui para exibir o exercício 05</a></li>
-                <li><a href="ex015.html" target="frame">Clique aqui para exibir o exercício 15</a></li>
-                <li><a href="ex019.html" target="frame">Clique aqui para exibir o exercício 19</a></li>
-            </ul>
-        </p>
+        Há utilização do iFrame traz algumas ameaças de segurança porque permite que um script de
+        outro site seja executado no seu. Esse script pode conter vírus, ou ter seus formulários 
+        utilizados para phishing e outros golpes
     </p>
-    <iframe name="frame"></iframe>
+    <iFrame src="ex017.html"></iFrame>
     <p>
-        Há outro atributo no iframe, chamado de 'srcdoc', que serve para gerar conteúdo estático, conforme o exemplo a seguir
-        <iframe class="small" srcdoc="<h1>O que aparece foi escrito diretamente no iframe, por via de elementos html</h1>"></iframe>
+        Como forma de melhorar a segurança, é possivel utilizar os atributos "referrerpolicy" (no-referrer 
+        não permite capturar dados de ninguém) e "sandbox" para restringir os riscos. (exemplo abaixo) 
     </p>
-    
+    <iframe src="ex017.html" referrerpolicy="no-referrer" sandbox="sandbox"></iframe>
 </body>
 </html>

@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 22 - iFrames</title>
+    <style>
+        iframe{
+            width: 700px;
+            height: 800px;
+            display:block;
+            margin: auto;
+        }
+        .small {
+            width: 300px;
+            height: 300px;
+            display:block;
+            margin: auto;
+        }
+    </style>
+    <title>Exercício 023 - Iframes</title>
 </head>
 <body>
-    <!-- O iFrame ainda é muito útil. O "i" vem de "inline". Portanto a ideia é de uma
-    "quadro" em uma linha-->
-    
-    <!--O iFrame tem o tamanho padrão de 300x150-->
-    
-    <!--Softwares de usabilidade, ex os feito para cegos, tem dificuldades para acessar o conteúdo do iFrame -->
-    
-    <!--Os conteúdos do iFrame não são devidamente indexados pelo Google-->
-    
-    <!--O iframe pode ser inseguro no seguinte caso: você cita um site que foi invadido, aí seus usuários
-    acessarão a página invadida por meio do seu iFrame-->
-    <h1> Teste do uso de iFrame </h1>
-    <p>Iframes permitem que você insira quadros de outras páginas no seu site. Contudo, nem todos 
-        os sites permites que você os utilize num iFrame. É o caso do linkedin, conforme se observa:
-        <br/>
-        <iframe src="https://www.linkedin.com/in/jlucassc/" frameborder="0">
-            O linkedin não é compatível com o uso de iframe
-        </iframe>
-    </p>
-   
     <p>
-        Já o site do Curso em Vídeo permite: <br/>
-        <iframe src="https://www.cursoemvideo.com" width ="500" height="500" frameborder="0"> </iframe>
+        É possível carregar o iFrame conforme se clica nos seguintes links:
+        <p>
+            <ul>
+                <li><a href="ex005.html" target="frame">Clique aqui para exibir o exercício 05</a></li>
+                <li><a href="ex015.html" target="frame">Clique aqui para exibir o exercício 15</a></li>
+                <li><a href="ex019.html" target="frame">Clique aqui para exibir o exercício 19</a></li>
+            </ul>
+        </p>
     </p>
-    <p> Também é possível carregar páginas próprias no iFrame<br/>
-        <iframe src="./ex009.html" width="700" height="700">
-        </iframe>
+    <iframe name="frame"></iframe>
+    <p>
+        Há outro atributo no iframe, chamado de 'srcdoc', que serve para gerar conteúdo estático, conforme o exemplo a seguir
+        <iframe class="small" srcdoc="<h1>O que aparece foi escrito diretamente no iframe, por via de elementos html</h1>"></iframe>
     </p>
-
+    
 </body>
 </html>
