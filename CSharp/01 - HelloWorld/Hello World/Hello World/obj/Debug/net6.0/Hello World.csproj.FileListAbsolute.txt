@@ -1,0 +1,15 @@
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\bin\Debug\net6.0\Hello World.exe
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\bin\Debug\net6.0\Hello World.deps.json
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\bin\Debug\net6.0\Hello World.runtimeconfig.json
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\bin\Debug\net6.0\Hello World.dll
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\bin\Debug\net6.0\Hello World.pdb
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.csproj.AssemblyReference.cache
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.AssemblyInfoInputs.cache
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.AssemblyInfo.cs
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.dll
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\refint\Hello World.dll
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.pdb
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\Hello World.genruntimeconfig.cache
+C:\Users\JoseLucas\Documents\GitHub\Programing-and-HTML-CSS-Exercises\CSharp\01 - HelloWorld\Hello World\Hello World\obj\Debug\net6.0\ref\Hello World.dll
