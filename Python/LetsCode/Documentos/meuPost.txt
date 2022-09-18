@@ -1,0 +1,22 @@
+https://jlucastz.blogspot.com/2022/09/por-que-os-prazos-sao-importantes-para-o-direito.html
+
+POR QUE PRAZOS SÃO IMPORTANTES PARA O DIREITO?
+
+Há um ditado popular muito comum e importante: o óbvio deve ser dito. Os prazos devem ser respeitados porque são compromissos! No direito eles adquirem importância porque o silêncio também tem efeitos jurídicos, tal como na ausência de contestação. 
+Imagine a seguinte situação: alguém resolve processá-lo por uma mentira e você não apresenta contestação. Nesse caso o artigo 344, do Código de Processo Civil (CPC), determina que você será considerado revel e as alegações formuladas pelo autor presumir-se-ão verdadeiras.
+Além disso, segundo o art. 223, também do Código de Processo Civil, os atos precluem. Ou seja, passado o prazo do ato processual, extingue-se o direito a pratica-lo ou muda-lo. 
+Devo esclarecer que há exceções tanto para o art. 344, quanto para o art. 223, para o qual se ressalva a possibilidade de provar que o ato não foi praticado por justa. Como a intenção é descomplicar, vamos deixar esse assunto para uma outra postagem.
+Portanto, via de regra, é uma péssima ideia não contestar uma petição, muito menos perder o prazo para praticar um ato, porque o direito não socorre aos que dormem.
+
+ Art. 344. Se o réu não contestar a ação, será considerado revel e presumir-se-ão verdadeiras as alegações de fato formuladas pelo autor.
+ Art. 345. A revelia não produz o efeito mencionado no art. 344 se:
+I - havendo pluralidade de réus, algum deles contestar a ação;
+II - o litígio versar sobre direitos indisponíveis;
+III - a petição inicial não estiver acompanhada de instrumento que a lei considere indispensável à prova do ato;
+IV - as alegações de fato formuladas pelo autor forem inverossímeis ou estiverem em contradição com prova constante dos autos.
+
+ Art. 223. Decorrido o prazo, extingue-se o direito de praticar ou de emendar o ato processual, independentemente de declaração judicial, ficando assegurado, porém, à parte provar que não o realizou por justa causa.
+§ 1º Considera-se justa causa o evento alheio à vontade da parte e que a impediu de praticar o ato por si ou por mandatário.
+§ 2º Verificada a justa causa, o juiz permitirá à parte a prática do ato no prazo que lhe assinar.
+
+
